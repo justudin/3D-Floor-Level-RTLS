@@ -2,7 +2,7 @@
 
 An 3D Floor-Level RTLS concept with a sidebar search and pin indicators for every person location. Edit
 
-Modified version based on [Interactive 3D Mall Map](https://github.com/codrops/Interactive3DMallMap){target="_blank"}
+Modified version based on [Interactive 3D Mall Map](https://github.com/codrops/Interactive3DMallMap){:target="_blank"}
 
 ## License
 
