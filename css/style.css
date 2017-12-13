@@ -263,20 +263,37 @@ button:focus {
 }
 
 .level--1::after {
-	content: 'L1';
+	content: '1F';
 }
 
 .level--2::after {
-	content: 'L2';
+	content: '2F';
 }
 
 .level--3::after {
-	content: 'L3';
+	content: '3F';
 }
 
 .level--4::after {
-	content: 'L4';
+	content: '4F';
 }
+
+.level--5::after {
+	content: '5F';
+}
+
+.level--6::after {
+	content: '6F';
+}
+
+.level--7::after {
+	content: '7F';
+}
+
+.level--8::after {
+	content: '8F';
+}
+
 
 .level:not(:first-child) {
 	position: absolute;
@@ -285,18 +302,38 @@ button:focus {
 }
 
 .level--2 {
+	-webkit-transform: translateZ(5vmin);
+	transform: translateZ(5vmin);
+}
+
+.level--3 {
 	-webkit-transform: translateZ(10vmin);
 	transform: translateZ(10vmin);
 }
 
-.level--3 {
+.level--4 {
+	-webkit-transform: translateZ(15vmin);
+	transform: translateZ(15vmin);
+}
+
+.level--5 {
 	-webkit-transform: translateZ(20vmin);
 	transform: translateZ(20vmin);
 }
 
-.level--4 {
+.level--6 {
+	-webkit-transform: translateZ(25vmin);
+	transform: translateZ(25vmin);
+}
+
+.level--7 {
 	-webkit-transform: translateZ(30vmin);
 	transform: translateZ(30vmin);
+}
+
+.level--8 {
+	-webkit-transform: translateZ(35vmin);
+	transform: translateZ(35vmin);
 }
 
 
@@ -305,7 +342,11 @@ button:focus {
 .levels--selected-1 .level:not(.level--1),
 .levels--selected-2 .level:not(.level--2),
 .levels--selected-3 .level:not(.level--3),
-.levels--selected-4 .level:not(.level--4) {
+.levels--selected-4 .level:not(.level--4),
+.levels--selected-5 .level:not(.level--5),
+.levels--selected-6 .level:not(.level--6),
+.levels--selected-7 .level:not(.level--7),
+.levels--selected-8 .level:not(.level--8) {
 	opacity: 0;
 	/* fade out all others */
 }
@@ -320,9 +361,31 @@ button:focus {
 .levels--selected-2 .level--1,
 .levels--selected-3 .level--1,
 .levels--selected-4 .level--1,
+.levels--selected-5 .level--1,
+.levels--selected-6 .level--1,
+.levels--selected-7 .level--1,
+.levels--selected-8 .level--1,
 .levels--selected-3 .level--2,
 .levels--selected-4 .level--2,
-.levels--selected-4 .level--3 {
+.levels--selected-5 .level--2,
+.levels--selected-6 .level--2,
+.levels--selected-7 .level--2,
+.levels--selected-8 .level--2,
+.levels--selected-4 .level--3,
+.levels--selected-5 .level--3,
+.levels--selected-6 .level--3,
+.levels--selected-7 .level--3,
+.levels--selected-8 .level--3,
+.levels--selected-5 .level--4,
+.levels--selected-6 .level--4,
+.levels--selected-7 .level--4,
+.levels--selected-8 .level--4,
+.levels--selected-6 .level--5,
+.levels--selected-7 .level--5,
+.levels--selected-8 .level--5,
+.levels--selected-7 .level--6,
+.levels--selected-8 .level--6,
+.levels--selected-8 .level--7 {
 	-webkit-transform: translateZ(-60vmin);
 	transform: translateZ(-60vmin);
 }
@@ -333,7 +396,11 @@ button:focus {
 .levels--selected-1 .level--3,
 .levels--selected-2 .level--3,
 .levels--selected-3 .level--2,
-.levels--selected-4 .level--2 {
+.levels--selected-4 .level--2,
+.levels--selected-5 .level--2,
+.levels--selected-6 .level--2,
+.levels--selected-7 .level--2,
+.levels--selected-8 .level--2 {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
@@ -343,15 +410,23 @@ button:focus {
 .levels--selected-2 .level--current::after,
 .levels--selected-3 .level--current,
 .levels--selected-3 .level--current::after,
-.levels--selected-4 .level--3 {
+.levels--selected-4 .level--current,
+.levels--selected-4 .level--current::after,
+.levels--selected-5 .level--current,
+.levels--selected-5 .level--current::after,
+.levels--selected-6 .level--current,
+.levels--selected-6 .level--current::after,
+.levels--selected-7 .level--current,
+.levels--selected-7 .level--current::after,
+.levels--selected-8 .level--7 {
 	-webkit-transition-delay: 0.25s;
 	transition-delay: 0.25s;
 }
 
 .levels--selected-1 .level--current,
 .levels--selected-1 .level--current::after,
-.levels--selected-4 .level--current,
-.levels--selected-4 .level--current::after {
+.levels--selected-8 .level--current,
+.levels--selected-8 .level--current::after {
 	-webkit-transition-delay: 0.45s;
 	transition-delay: 0.45s;
 }
@@ -681,22 +756,14 @@ button:focus {
 .grouped-by-category [data-category='1']:first-child,
 .grouped-by-category :not([data-category='1']) + [data-category='1'],
 .grouped-by-category [data-category='2']:first-child,
-.grouped-by-category :not([data-category='2']) + [data-category='2'],
-.grouped-by-category [data-category='3']:first-child,
-.grouped-by-category :not([data-category='3']) + [data-category='3'],
-.grouped-by-category [data-category='4']:first-child,
-.grouped-by-category :not([data-category='4']) + [data-category='4'] {
+.grouped-by-category :not([data-category='2']) + [data-category='2']{
 	margin-top: 4em;
 }
 
 .grouped-by-category [data-category='1']:first-child::before,
 .grouped-by-category :not([data-category='1']) + [data-category='1']::before,
 .grouped-by-category [data-category='2']:first-child::before,
-.grouped-by-category :not([data-category='2']) + [data-category='2']::before,
-.grouped-by-category [data-category='3']:first-child::before,
-.grouped-by-category :not([data-category='3']) + [data-category='3']::before,
-.grouped-by-category [data-category='4']:first-child::before,
-.grouped-by-category :not([data-category='4']) + [data-category='4']::before {
+.grouped-by-category :not([data-category='2']) + [data-category='2']::before {
 	font-size: 1.25em;
 	position: absolute;
 	top: -1.75em;
@@ -706,30 +773,18 @@ button:focus {
 
 .grouped-by-category [data-category='1']:first-child::before,
 .grouped-by-category :not([data-category='1']) + [data-category='1']::before {
-	content: 'Nourish & Refresh';
+	content: 'Person List';
 	color: #7cbf7f;
 }
 
 .grouped-by-category [data-category='2']:first-child::before,
 .grouped-by-category :not([data-category='2']) + [data-category='2']::before {
-	content: 'Learn & Create';
+	content: 'Devices List';
 	color: #6584c7;
 }
 
-.grouped-by-category [data-category='3']:first-child::before,
-.grouped-by-category :not([data-category='3']) + [data-category='3']::before {
-	content: 'Swap & Give';
-	color: #dc4b7c;
-}
-
-.grouped-by-category [data-category='4']:first-child::before,
-.grouped-by-category :not([data-category='4']) + [data-category='4']::before {
-	content: 'Relax & Recharge';
-	color: #8d65e0;
-}
-
 .list__item::after {
-	content: 'L' attr(data-level) ' / ' attr(data-space);
+	content: attr(data-level) '' attr(loc);
 	font-size: 0.65em;
 	line-height: 3;
 	position: absolute;
@@ -748,6 +803,17 @@ button:focus {
 
 .list__item--active .list__link,
 .list__link:hover {
+	color: #515158;
+}
+
+.list__outsidelink {
+	font-size: 0.85em;
+	display: block;
+	padding: 0.5em 0.5em 0.5em 0;
+}
+
+.list__item--active .list__outsidelink,
+.list__outsidelink:hover {
 	color: #515158;
 }
 
@@ -873,6 +939,9 @@ button:focus {
 	fill-opacity: 1;
 }
 
+/* outside */
+.pin--0-0 { top: 60vmin; left: 8vmin; } 
+
 /* Pins for floor 1 */
 .pin--1-1 { top: 60vmin; left: 8vmin; }
 .pin--1-2 { top: 15vmin; left: 15vmin; }
@@ -911,6 +980,26 @@ button:focus {
 .pin--4-5 { top: 33vmin; left: 38vmin; }
 .pin--4-6 { top: 39vmin; left: 56vmin; }
 .pin--4-7 { top: 58vmin; left: 10vmin; }
+
+/* Pins for floor 5 */
+.pin--5-1 { top: 17vmin; left: 15vmin; }
+.pin--5-2 { top: 42vmin; left: 5vmin; }
+.pin--5-3 { top: 19vmin; left: 85vmin; }
+.pin--5-4 { top: 61vmin; left: 57vmin; }
+.pin--5-5 { top: 58vmin; left: 25vmin; }
+.pin--5-6 { top: 30vmin; left: 57vmin; }
+.pin--5-7 { top: 32vmin; left: 37vmin; }
+
+
+
+/* Pins for floor 8 */
+.pin--8-1 { top: 17vmin; left: 15vmin; }
+.pin--8-2 { top: 42vmin; left: 5vmin; }
+.pin--8-3 { top: 19vmin; left: 85vmin; }
+.pin--8-4 { top: 61vmin; left: 57vmin; }
+.pin--8-5 { top: 58vmin; left: 25vmin; }
+.pin--8-6 { top: 30vmin; left: 57vmin; }
+.pin--8-7 { top: 32vmin; left: 37vmin; }
 
 /* Mobile compatability */
 .open-search,

@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Interactive 3D Mall Map | Codrops</title>
+		<title>Indoor Floor-Level | Real-Time Location System</title>
 		<meta name="description" content="An interactive 3D mall map concept with a search and pin indicators for every level. " />
 		<meta name="keywords" content="mall map, 3d, css, javascript, pin, levels, floor map" />
 		<meta name="author" content="Codrops" />
@@ -216,10 +216,10 @@
 			<div class="main">
 				<header class="codrops-header">
 					<div class="codrops-links">
-						<a class="codrops-icon codrops-icon--prev" href="" title="Previous Demo"><span>Previous Demo</span></a>
-						<a class="codrops-icon codrops-icon--drop" href="" title="Back to the article"><span>Back to the Codrops article</span></a>
+						<a class="codrops-icon codrops-icon--prev" href="/monitoring" title="back"><span>back</span></a>
+						<a class="codrops-icon codrops-icon--drop" title="Home"><span></span></a>
 					</div>
-					<h1>Interactive Mall Map</h1>
+					<h1>Indoor Floor-Level Real-Time Location System</h1>
 				</header>
 				<div class="mall">
 					<div class="surroundings">
@@ -478,14 +478,9 @@
 						</div>
 						<div class="level level--4" aria-label="Level 4">
 							<svg class="map map--4" viewBox="0 0 1200 800" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
-								<title>Map Level 2</title>
+								<title>Map Level 4</title>
 								<polygon points="1035.94 787.41 1035.94 423.16 855.37 423.16 855.37 350.52 1187.28 350.52 1187.28 12.59 548.09 12.59 548.09 68.87 437.36 68.87 437.36 12.59 49.37 12.59 49.37 366.5 12.72 366.5 12.72 787.41 356.2 787.41 414.93 584.41 554.4 584.41 627.81 787.41 1035.94 787.41" class="map__ground" />
 								<path d="M1187.28,12.59V350.52H855.37v72.64h180.58V787.41H627.81l-73.41-203H414.93l-58.73,203H12.72V366.5H49.37V12.59h388V68.87H548.08V12.59h639.19M1200,0H535.36V56.28H450.09V0H36.65V353.91H0V800H365.8l2.64-9.13L424.52,597H545.44l70.39,194.65,3,8.35h429.82V410.57H868.09V363.11H1200V0h0Z" class="map__outline" />
-								<path d="M674.5,647c2,16.3,29.2,31.3,51.4,28.9c51.9-5.8,80.3-107.4,64.7-119c-6.4-4.7-27.9,11.2-70.8,43.1C676.6,632,673.7,640.5,674.5,647z" class="map__lake" />
-								<ellipse cx="738.82" cy="595.48" rx="13.95" ry="13.8" class="map__tree" />
-								<ellipse cx="768.46" cy="605.4" rx="13.95" ry="13.8" class="map__tree" />
-								<ellipse cx="744.64" cy="624.92" rx="13.95" ry="13.8" class="map__tree" />
-								<rect x="666.9" y="565.6" width="26.3" height="26" class="map__space" />
 								<path data-space="4.05" d="M454.8,266.2h63c13.4-0.1,24.4,10.8,24.5,24.2c0,0,0,0,0,0l0,0v199.4c-0.1,13.4-11.1,24.3-24.5,24.2h-63c-13.4,0.1-24.4-10.8-24.5-24.2c0,0,0,0,0,0l0,0V290.4C430.3,277,441.3,266.1,454.8,266.2C454.7,266.2,454.7,266.2,454.8,266.2L454.8,266.2L454.8,266.2z" class="map__space" />
 								<rect x="282.3" y="478.1" width="26.3" height="26" class="map__space" />
 								<rect x="12.7" y="366.5" width="202.4" height="175.1" class="map__space" />
@@ -548,6 +543,202 @@
 							</div>
 							<!-- /level__pins -->
 						</div>
+						<div class="level level--5" aria-label="Level 5">
+							<svg class="map map--5" viewBox="0 0 1200 800" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+								<title>Map Level 5</title>
+								<polygon points="1035.94 787.41 1035.94 423.16 855.37 423.16 855.37 350.52 1187.28 350.52 1187.28 12.59 548.09 12.59 548.09 68.87 437.36 68.87 437.36 12.59 49.37 12.59 49.37 366.5 12.72 366.5 12.72 787.41 356.2 787.41 414.93 584.41 554.4 584.41 627.81 787.41 1035.94 787.41" class="map__ground" />
+								<path d="M1187.28,12.59V350.52H855.37v72.64h180.58V787.41H627.81l-73.41-203H414.93l-58.73,203H12.72V366.5H49.37V12.59h388V68.87H548.08V12.59h639.19M1200,0H535.36V56.28H450.09V0H36.65V353.91H0V800H365.8l2.64-9.13L424.52,597H545.44l70.39,194.65,3,8.35h429.82V410.57H868.09V363.11H1200V0h0Z" class="map__outline" />
+								<rect x="666.9" y="565.6" width="26.3" height="26" class="map__space" />
+								<path data-space="5.01" d="M454.8,266.2h63c13.4-0.1,24.4,10.8,24.5,24.2c0,0,0,0,0,0l0,0v199.4c-0.1,13.4-11.1,24.3-24.5,24.2h-63c-13.4,0.1-24.4-10.8-24.5-24.2c0,0,0,0,0,0l0,0V290.4C430.3,277,441.3,266.1,454.8,266.2C454.7,266.2,454.7,266.2,454.8,266.2L454.8,266.2L454.8,266.2z" class="map__space" />
+								<polygon points="898.1,182.4 919.3,194.5 919.3,218.7 898.1,230.9 876.9,218.7 876.9,194.5 " class="map__space" />
+								<rect x="282.3" y="478.1" width="26.3" height="26" class="map__space" />
+								<rect x="381.5" y="12.6" width="55.8" height="55.8" class="map__space" />
+								<rect x="566" y="12.6" width="110.6" height="110.6" class="map__space" />
+								<rect x="566" y="157.4" width="110.6" height="73.5" class="map__space" />
+								<rect x="742" y="12.6" width="445.3" height="110.6" class="map__space" />
+								<rect data-space="5.02" x="972.8" y="128.5" width="214.5" height="222" class="map__space" />
+								<rect x="756" y="423.2" width="279.9" height="161.2" class="map__space" />
+								<rect x="876.9" y="591.6" width="159" height="195.8" class="map__space" />
+								<polygon data-space="5.04" points="871.6,680 589.4,680 627.8,787.4 871.6,787.4 " class="map__space" />
+								<circle data-space="5.06" cx="735.7" cy="343.8" r="55.7" class="map__space" />
+								<rect x="12.7" y="696" width="91.4" height="91.4" class="map__space" />
+								<rect x="12.7" y="591.6" width="146.9" height="97.9" class="map__space" />
+								<rect data-space="5.03" x="12.7" y="366.5" width="146.9" height="217.9" class="map__space" />
+								<polygon data-space="5.04" points="356.2,787.4 414.9,584.4 275.1,584.4 275.1,787.4 " class="map__space" />
+								<rect data-space="5.05" x="49.4" y="12.6" width="312.7" height="343" class="map__space" />
+							</svg>
+							<div class="level__pins">
+								<a class="pin pin--5-1" data-category="1" data-space="5.01" href="#" aria-label="Pin for Oolong House">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--tea"><use xlink:href="#icon-tea"></use></svg>
+									</span>
+								</a>
+								<a class="pin pin--5-2" data-category="2" data-space="5.02" href="#" aria-label="Pin for Enlightend Path">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--pyramid"><use xlink:href="#icon-pyramid"></use></svg>
+									</span>
+								</a>
+								<a class="pin pin--5-3" data-category="3" data-space="5.03" href="#" aria-label="Pin for What makes us walk">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--shoe"><use xlink:href="#icon-shoe"></use></svg>
+									</span>
+								</a>
+							</div>
+							<!-- /level__pins -->
+						</div>
+						<div class="level level--6" aria-label="Level 6">
+							<svg class="map map--6" viewBox="0 0 1200 800" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+								<title>Map Level 6</title>
+								<polygon points="1035.94 787.41 1035.94 423.16 855.37 423.16 855.37 350.52 1187.28 350.52 1187.28 12.59 548.09 12.59 548.09 68.87 437.36 68.87 437.36 12.59 49.37 12.59 49.37 366.5 12.72 366.5 12.72 787.41 356.2 787.41 414.93 584.41 554.4 584.41 627.81 787.41 1035.94 787.41" class="map__ground" />
+								<path d="M1187.28,12.59V350.52H855.37v72.64h180.58V787.41H627.81l-73.41-203H414.93l-58.73,203H12.72V366.5H49.37V12.59h388V68.87H548.08V12.59h639.19M1200,0H535.36V56.28H450.09V0H36.65V353.91H0V800H365.8l2.64-9.13L424.52,597H545.44l70.39,194.65,3,8.35h429.82V410.57H868.09V363.11H1200V0h0Z" class="map__outline" />
+								<rect x="666.9" y="565.6" width="26.3" height="26" class="map__space" />
+								<path data-space="6.01" d="M454.8,266.2h63c13.4-0.1,24.4,10.8,24.5,24.2c0,0,0,0,0,0l0,0v199.4c-0.1,13.4-11.1,24.3-24.5,24.2h-63c-13.4,0.1-24.4-10.8-24.5-24.2c0,0,0,0,0,0l0,0V290.4C430.3,277,441.3,266.1,454.8,266.2C454.7,266.2,454.7,266.2,454.8,266.2L454.8,266.2L454.8,266.2z" class="map__space" />
+								<polygon points="898.1,182.4 919.3,194.5 919.3,218.7 898.1,230.9 876.9,218.7 876.9,194.5 " class="map__space" />
+								<rect x="282.3" y="478.1" width="26.3" height="26" class="map__space" />
+								<rect x="381.5" y="12.6" width="55.8" height="55.8" class="map__space" />
+								<rect x="566" y="12.6" width="110.6" height="110.6" class="map__space" />
+								<rect x="566" y="157.4" width="110.6" height="73.5" class="map__space" />
+								<rect x="742" y="12.6" width="445.3" height="110.6" class="map__space" />
+								<rect data-space="6.02" x="972.8" y="128.5" width="214.5" height="222" class="map__space" />
+								<rect x="756" y="423.2" width="279.9" height="161.2" class="map__space" />
+								<rect x="876.9" y="591.6" width="159" height="195.8" class="map__space" />
+								<polygon data-space="6.03" points="871.6,680 589.4,680 627.8,787.4 871.6,787.4 " class="map__space" />
+								<circle data-space="6.04" cx="735.7" cy="343.8" r="55.7" class="map__space" />
+								<rect x="12.7" y="696" width="91.4" height="91.4" class="map__space" />
+								<rect x="12.7" y="591.6" width="146.9" height="97.9" class="map__space" />
+								<rect data-space="6.05" x="12.7" y="366.5" width="146.9" height="217.9" class="map__space" />
+								<polygon data-space="6.05" points="356.2,787.4 414.9,584.4 275.1,584.4 275.1,787.4 " class="map__space" />
+								<rect data-space="6.06" x="49.4" y="12.6" width="312.7" height="343" class="map__space" />
+							</svg>
+							<div class="level__pins">
+								<a class="pin pin--6-1" data-category="1" data-space="6.01" href="#" aria-label="Pin for Oolong House">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--tea"><use xlink:href="#icon-tea"></use></svg>
+									</span>
+								</a>
+								<a class="pin pin--6-2" data-category="2" data-space="6.02" href="#" aria-label="Pin for Enlightend Path">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--pyramid"><use xlink:href="#icon-pyramid"></use></svg>
+									</span>
+								</a>
+								<a class="pin pin--6-3" data-category="3" data-space="6.03" href="#" aria-label="Pin for What makes us walk">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--shoe"><use xlink:href="#icon-shoe"></use></svg>
+									</span>
+								</a>
+								<a class="pin pin--6-4" data-category="3" data-space="6.04" href="#" aria-label="Pin for Your Last Shirt">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--shirt"><use xlink:href="#icon-shirt"></use></svg>
+									</span>
+								</a>
+							</div>
+							<!-- /level__pins -->
+						</div>
+						<div class="level level--7" aria-label="Level 7">
+							<svg class="map map--7" viewBox="0 0 1200 800" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+								<title>Map Level 7</title>
+								<polygon points="1035.94 787.41 1035.94 423.16 855.37 423.16 855.37 350.52 1187.28 350.52 1187.28 12.59 548.09 12.59 548.09 68.87 437.36 68.87 437.36 12.59 49.37 12.59 49.37 366.5 12.72 366.5 12.72 787.41 356.2 787.41 414.93 584.41 554.4 584.41 627.81 787.41 1035.94 787.41" class="map__ground" />
+								<path d="M1187.28,12.59V350.52H855.37v72.64h180.58V787.41H627.81l-73.41-203H414.93l-58.73,203H12.72V366.5H49.37V12.59h388V68.87H548.08V12.59h639.19M1200,0H535.36V56.28H450.09V0H36.65V353.91H0V800H365.8l2.64-9.13L424.52,597H545.44l70.39,194.65,3,8.35h429.82V410.57H868.09V363.11H1200V0h0Z" class="map__outline" />
+								<rect x="666.9" y="565.6" width="26.3" height="26" class="map__space" />
+								<path data-space="7.07" d="M454.8,266.2h63c13.4-0.1,24.4,10.8,24.5,24.2c0,0,0,0,0,0l0,0v199.4c-0.1,13.4-11.1,24.3-24.5,24.2h-63c-13.4,0.1-24.4-10.8-24.5-24.2c0,0,0,0,0,0l0,0V290.4C430.3,277,441.3,266.1,454.8,266.2C454.7,266.2,454.7,266.2,454.8,266.2L454.8,266.2L454.8,266.2z" class="map__space" />
+								<polygon points="898.1,182.4 919.3,194.5 919.3,218.7 898.1,230.9 876.9,218.7 876.9,194.5 " class="map__space" />
+								<rect x="282.3" y="478.1" width="26.3" height="26" class="map__space" />
+								<rect x="381.5" y="12.6" width="55.8" height="55.8" class="map__space" />
+								<rect x="566" y="12.6" width="110.6" height="110.6" class="map__space" />
+								<rect x="566" y="157.4" width="110.6" height="73.5" class="map__space" />
+								<rect x="742" y="12.6" width="445.3" height="110.6" class="map__space" />
+								<rect data-space="7.03" x="972.8" y="128.5" width="214.5" height="222" class="map__space" />
+								<rect x="756" y="423.2" width="279.9" height="161.2" class="map__space" />
+								<rect x="876.9" y="591.6" width="159" height="195.8" class="map__space" />
+								<polygon data-space="7.04" points="871.6,680 589.4,680 627.8,787.4 871.6,787.4 " class="map__space" />
+								<circle data-space="7.06" cx="735.7" cy="343.8" r="55.7" class="map__space" />
+								<rect x="12.7" y="696" width="91.4" height="91.4" class="map__space" />
+								<rect x="12.7" y="591.6" width="146.9" height="97.9" class="map__space" />
+								<rect data-space="7.02" x="12.7" y="366.5" width="146.9" height="217.9" class="map__space" />
+								<polygon data-space="7.05" points="356.2,787.4 414.9,584.4 275.1,584.4 275.1,787.4 " class="map__space" />
+								<rect data-space="7.01" x="49.4" y="12.6" width="312.7" height="343" class="map__space" />
+							</svg>
+							<div class="level__pins">
+								<a class="pin pin--7-1" data-category="1" data-space="7.01" href="#" aria-label="Pin for Oolong House">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--tea"><use xlink:href="#icon-tea"></use></svg>
+									</span>
+								</a>
+								<a class="pin pin--7-2" data-category="2" data-space="7.02" href="#" aria-label="Pin for Enlightend Path">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--pyramid"><use xlink:href="#icon-pyramid"></use></svg>
+									</span>
+								</a>
+								<a class="pin pin--7-3" data-category="3" data-space="7.03" href="#" aria-label="Pin for What makes us walk">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--shoe"><use xlink:href="#icon-shoe"></use></svg>
+									</span>
+								</a>
+								<a class="pin pin--7-4" data-category="3" data-space="7.04" href="#" aria-label="Pin for Your Last Shirt">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--shirt"><use xlink:href="#icon-shirt"></use></svg>
+									</span>
+								</a>
+							</div>
+							<!-- /level__pins -->
+						</div>
+						<div class="level level--8" aria-label="Level 8">
+							<svg class="map map--8" viewBox="0 0 1200 800" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+								<title>Map Level 8</title>
+								<polygon points="1035.94 787.41 1035.94 423.16 855.37 423.16 855.37 350.52 1187.28 350.52 1187.28 12.59 548.09 12.59 548.09 68.87 437.36 68.87 437.36 12.59 49.37 12.59 49.37 366.5 12.72 366.5 12.72 787.41 356.2 787.41 414.93 584.41 554.4 584.41 627.81 787.41 1035.94 787.41" class="map__ground" />
+								<path d="M1187.28,12.59V350.52H855.37v72.64h180.58V787.41H627.81l-73.41-203H414.93l-58.73,203H12.72V366.5H49.37V12.59h388V68.87H548.08V12.59h639.19M1200,0H535.36V56.28H450.09V0H36.65V353.91H0V800H365.8l2.64-9.13L424.52,597H545.44l70.39,194.65,3,8.35h429.82V410.57H868.09V363.11H1200V0h0Z" class="map__outline" />
+								<rect x="666.9" y="565.6" width="26.3" height="26" class="map__space" />
+								<path data-space="3.07" d="M454.8,266.2h63c13.4-0.1,24.4,10.8,24.5,24.2c0,0,0,0,0,0l0,0v199.4c-0.1,13.4-11.1,24.3-24.5,24.2h-63c-13.4,0.1-24.4-10.8-24.5-24.2c0,0,0,0,0,0l0,0V290.4C430.3,277,441.3,266.1,454.8,266.2C454.7,266.2,454.7,266.2,454.8,266.2L454.8,266.2L454.8,266.2z" class="map__space" />
+								<polygon points="898.1,182.4 919.3,194.5 919.3,218.7 898.1,230.9 876.9,218.7 876.9,194.5 " class="map__space" />
+								<rect x="282.3" y="478.1" width="26.3" height="26" class="map__space" />
+								<rect x="381.5" y="12.6" width="55.8" height="55.8" class="map__space" />
+								<rect x="566" y="12.6" width="110.6" height="110.6" class="map__space" />
+								<rect x="566" y="157.4" width="110.6" height="73.5" class="map__space" />
+								<rect x="742" y="12.6" width="445.3" height="110.6" class="map__space" />
+								<rect data-space="8.03" x="972.8" y="128.5" width="214.5" height="222" class="map__space" />
+								<rect x="756" y="423.2" width="279.9" height="161.2" class="map__space" />
+								<rect x="876.9" y="591.6" width="159" height="195.8" class="map__space" />
+								<polygon data-space="8.04" points="871.6,680 589.4,680 627.8,787.4 871.6,787.4 " class="map__space" />
+								<circle data-space="8.06" cx="735.7" cy="343.8" r="55.7" class="map__space" />
+								<rect x="12.7" y="696" width="91.4" height="91.4" class="map__space" />
+								<rect x="12.7" y="591.6" width="146.9" height="97.9" class="map__space" />
+								<rect data-space="8.02" x="12.7" y="366.5" width="146.9" height="217.9" class="map__space" />
+								<polygon data-space="8.05" points="356.2,787.4 414.9,584.4 275.1,584.4 275.1,787.4 " class="map__space" />
+								<rect data-space="8.01" x="49.4" y="12.6" width="312.7" height="343" class="map__space" />
+							</svg>
+							<div class="level__pins">
+								<a class="pin pin--8-1" data-category="1" data-space="8.01" href="#" aria-label="Pin for Oolong House">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--tea"><use xlink:href="#icon-tea"></use></svg>
+									</span>
+								</a>
+								<a class="pin pin--8-2" data-category="2" data-space="8.02" href="#" aria-label="Pin for Enlightend Path">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--pyramid"><use xlink:href="#icon-pyramid"></use></svg>
+									</span>
+								</a>
+								<a class="pin pin--8-3" data-category="3" data-space="8.03" href="#" aria-label="Pin for What makes us walk">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--shoe"><use xlink:href="#icon-shoe"></use></svg>
+									</span>
+								</a>
+							</div>
+							<!-- /level__pins -->
+						</div>
 					</div>
 					<!-- /levels -->
 				</div>
@@ -559,317 +750,20 @@
 					<button class="boxbutton mallnav__button--down" aria-label="Go down"><svg class="icon icon--angle-down"><use xlink:href="#icon-angle-down"></use></svg></button>
 				</nav>
 				<div class="content">
-					<div class="content__item" data-space="1.01" data-category="1">
-						<h3 class="content__item-title">Apple Heart</h3>
+					
+					<div class="content__item" data-space="8.01" data-category="4">
+						<h3 class="content__item-title">idPerson: 112</h3>
 						<div class="content__item-details">
 							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 6:30AM &mdash; 11:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 5738902</span>
+								<span class="content__meta-item"><strong>Location:</strong> 8 Floor</span> 
+								<span class="content__meta-item"><strong>Last updated:</strong> 2017-11-20T16:24:54.188Z</span>
 							</p>
-							<p class="content__desc">Burdock celery - salsify, tomatillo. Bitter gourd horseradish leaves radicchio, celeriac miner's lettuce kurrat arugula fluted pumpkin turnip, arracacha water spinach nopal.</p>
+							<p class="content__desc"></p>
 						</div>
 					</div>
-					<div class="content__item" data-space="1.02" data-category="1">
-						<h3 class="content__item-title">Crazy Banana</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 7822786</span>
-							</p>
-							<p class="content__desc">Malva verticillata cichorium intybus zingiber officinale. Capsicum annuum Grossum group amorphophallus_paeoniifolius celosia argentea. Brassica oleracea Acephala group brassica rapa pervidis or komatsuna group plectranthus spp.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="1.03" data-category="2">
-						<h3 class="content__item-title">Folding Life</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 2385641</span>
-							</p>
-							<p class="content__desc">Brassica rapa Pekinensis group crassocephalum spp ipomoea aquatica. Brassica napus Napobrassica group pachyrhizus ahipa.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="1.04" data-category="3">
-						<h3 class="content__item-title">Dress me not</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 7830091</span>
-							</p>
-							<p class="content__desc">Glycine max tarhui, chocho arachis hypogaea. Barbarea verna cucurbita spp, eruca sativa dioscorea spp solanum lycopersicum var telfairia occidentalis.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="1.05" data-category="4">
-						<h3 class="content__item-title">Meditation Garden</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 6653929</span>
-							</p>
-							<p class="content__desc">Vernonia calvoana. Talinum fruticosum celosia argentea manihot esculenta beta vulgaris subsp maritima lathyrus tuberosus. Vigna acontifolia amorphophallus_paeoniifolius canna spp valerianella locusta.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="1.06" data-category="1">
-						<h3 class="content__item-title">Seed of Life</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 8988650</span>
-							</p>
-							<p class="content__desc">Ullucus tuberosus psoralea esculenta; brassica rapa chinensis group - cichorium intybus. Pisum sativum inula crithmoides brassica napus napobrassica group brassica oleracea taraxacum officinale.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="1.07" data-category="1">
-						<h3 class="content__item-title">Raw Delight</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 6:30AM &mdash; 09:00PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 9121341</span>
-							</p>
-							<p class="content__desc">Brassica rapa Chinensis group dioscorea spp brassica rapa pekinensis and chinensis groups brassica oleracea pachyrhizus erosus.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="1.08" data-category="1">
-						<h3 class="content__item-title">The Wizard</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 8976773</span>
-							</p>
-							<p class="content__desc">Acmella oleracea brassica rapa chinensis group apios americana taraxacum officinale brassica rapa pekinensis group.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="1.09" data-category="1">
-						<h3 class="content__item-title">Smoothies &amp; Soul</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 6577439</span>
-							</p>
-							<p class="content__desc">Broccoli Rabe kale, beetroot lettuce. Daikon chickweed leek tomatillo, beetroot cress west indian gherkin ricebean black-eyed pea fat hen moth bean! Chard lotus root scallion jícama; ulluco. </p>
-						</div>
-					</div>
-					<div class="content__item" data-space="2.01" data-category="1">
-						<h3 class="content__item-title">Grilled Chipotle</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 11:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 9866756</span>
-							</p>
-							<p class="content__desc">Summer purslane horseradish catsear kurrat, winter melon bitter gourd. Tomato, florence fennel; garden rocket;</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="2.02" data-category="2">
-						<h3 class="content__item-title">Rocketship Tech</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 11:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 4539810</span>
-							</p>
-							<p class="content__desc">Salsify garlic scallion manioc plectranthus summer purslane water chestnut cucumber radish garlic. Daikon winter melon moth bean.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="2.03" data-category="2">
-						<h3 class="content__item-title">Which Bug?</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 8865001</span>
-							</p>
-							<p class="content__desc">Sorrel garlic pigeon pea fava bean radish scorzonera lentil. Black-eyed pea samphire sorrel; lotus root arracacha lima bean celeriac chinese artichoke okra.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="2.04" data-category="3">
-						<h3 class="content__item-title">Cognitio</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 11:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 6738982</span>
-							</p>
-							<p class="content__desc">Samphire chaya camas chickweed rutabaga. Soko pumpkin; miner's lettuce ulluco arugula. Peanut jícama spinach taro squash soko tepary bean, bok choy.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="2.05" data-category="1">
-						<h3 class="content__item-title">The Eggplanthead</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 9:00AM &mdash; 11:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 7846729</span>
-							</p>
-							<p class="content__desc">Ahipa yacón mustard fat hen fava bean mung bean, leek; beetroot - prussian asparagus. </p>
-						</div>
-					</div>
-					<div class="content__item" data-space="2.06" data-category="1">
-						<h3 class="content__item-title">Superfood</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 5630098</span>
-							</p>
-							<p class="content__desc">Mizuna greens; epazote tigernut chard - common bean! Radish chickweed, garden rocket, chickweed, gobo dolichos bean corn salad.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="2.07" data-category="3">
-						<h3 class="content__item-title">No Princess</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 6:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 6650989</span>
-							</p>
-							<p class="content__desc">Ensete endive fiddlehead endive kurrat - gobo, black-eyed pea bitter gourd pignut. Winter melon swiss chard beet greens fiddlehead; guar.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="2.08" data-category="3">
-						<h3 class="content__item-title">Tool Exchange</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 07:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 4409098</span>
-							</p>
-							<p class="content__desc">Celeriac lima bean, tepary bean sweet potato or kumara nopal wild leek, elephant garlic carrot. Bitter gourd, prairie turnip tatsoi canna miner's lettuce bitterleaf lizard's tail broadleaf arrowhead gobo; swiss chard pigeon pea leaves.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="3.01" data-category="1">
-						<h3 class="content__item-title">Oolong House</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 8867298</span>
-							</p>
-							<p class="content__desc">Sweet pepper; squash, parsnip sierra leone bologi peanut tomatillo. Broccoli Rabe chrysanthemum leaves florence fennel fluted pumpkin, sweet potato or kumara scallion. </p>
-						</div>
-					</div>
-					<div class="content__item" data-space="3.02" data-category="2">
-						<h3 class="content__item-title">Enlightend Path</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 7756989</span>
-							</p>
-							<p class="content__desc">Glycine max tarhui, chocho valerianella locusta; cichorium endivia, cucumis sativus. Cyamopsis tetragonoloba - acmella oleracea. Lactuca sativa; cucurbita spp.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="3.03" data-category="3">
-						<h3 class="content__item-title">What makes us walk</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 8809098</span>
-							</p>
-							<p class="content__desc">Valerianella locusta inula crithmoides. Nasturtium officinale; arctium lappa? Achillea millefolium eruca sativa benincasa hispida sagittaria latifolia telfairia occidentalis plantago major.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="3.04" data-category="3">
-						<h3 class="content__item-title">Your Last Shirt</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 3365784</span>
-							</p>
-							<p class="content__desc">Lens culinaris vigna mungo, smallanthus sonchifolius. Cicer arietinum eruca sativa; valerianella locusta.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="3.05" data-category="4">
-						<h3 class="content__item-title">Breathe</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 4523213</span>
-							</p>
-							<p class="content__desc">Physalis philadelphica. Benincasa hispida brassica napus napobrassica group lens culinaris abelmoschus esculentus.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="3.06" data-category="4">
-						<h3 class="content__item-title">Feel the Grass</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 4768590</span>
-							</p>
-							<p class="content__desc">Brassica rapa Chinensis group praecitrullus fistulosus pachyrhizus ahipa. Colocasia esculenta nasturtium officinale capsicum annuum grossum group, adansonia spp, hypochaeris radicata.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="3.07" data-category="4">
-						<h3 class="content__item-title">Star Gazer</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 6:30AM &mdash; 9:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 4456324</span>
-							</p>
-							<p class="content__desc">Cucumis anguria phaseolus coccineus lupinus mutabilis scorzonera hispanica cyperus esculentus.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="4.01" data-category="1">
-						<h3 class="content__item-title">Cold Soup Kitchen</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 11:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 6743987</span>
-							</p>
-							<p class="content__desc">Manihot esculenta phytolacca americana corchorus olitorius, corchorus capsularis. Brassica rapa Pervidis or Komatsuna group dioscorea spp lepidium sativum, ipomoea aquatica - brassica rapa chinensis group spinacia oleracea. Phaseolus vulgaris macrotyloma uniflorum.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="4.02" data-category="2">
-						<h3 class="content__item-title">Docu Dome</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 13:00PM &mdash; 03:00AM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 2289786</span>
-							</p>
-							<p class="content__desc">Ipomoea aquatica smallanthus sonchifolius. The Docu Dome presents Sintel by the Blender Foundation.</p>
-							<p class="content__desc">Book tickets <a href="http://tympanus.net/Development/SeatPreview/">here</a>.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="4.03" data-category="3">
-						<h3 class="content__item-title">Little Artist</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 10:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 9987879</span>
-							</p>
-							<p class="content__desc">Brassica oleracea Gemmifera group conopodium majus. Cichorium intybus brassica rapa subsp rapa brassica oleracea gemmifera group abelmoschus esculentus phaseolus vulgaris.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="4.04" data-category="4">
-						<h3 class="content__item-title">Space 16</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 8:30AM &mdash; 11:00PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 6658940</span>
-							</p>
-							<p class="content__desc">Arctium lappa scorzonera hispanica pteridium aquilinum, athyrium esculentum celosia argentea arctium lappa brassica rapa chinensis group. Cucurbita spp.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="4.05" data-category="4">
-						<h3 class="content__item-title">Hot Tub Festival</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 11:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 7843676</span>
-							</p>
-							<p class="content__desc">Talinum fruticosum glycine max tarhui, chocho. Cyamopsis tetragonoloba crassocephalum spp lens culinaris. Vigna umbellata cucurbita spp vigna umbellata.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="4.06" data-category="2">
-						<h3 class="content__item-title">Love 2 Cook</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 09:00PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 7749036</span>
-							</p>
-							<p class="content__desc">Vigna unguiculata subsp sesquipedalis vicia faba eruca sativa pisum sativum abelmoschus esculentus. Chenopodium album glycine max tarhui, chocho. Cordyline fruticosa apium graveolens sinapis alba.</p>
-						</div>
-					</div>
-					<div class="content__item" data-space="4.07" data-category="2">
-						<h3 class="content__item-title">Permaculture Hub</h3>
-						<div class="content__item-details">
-							<p class="content__meta">
-								<span class="content__meta-item"><strong>Opening Hours:</strong> 7:30AM &mdash; 12:30PM</span> 
-								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 7833895</span>
-							</p>
-							<p class="content__desc">Brassica oleracea phaseolus coccineus talinum fruticosum capsicum annuum cucurbita spp. Raphanus sativus Longipinnatus group cucurbita spp, moringa oleifera lathyrus sativus crithmum maritimum.</p>
-						</div>
-					</div>
+
+
+
 					<button class="boxbutton boxbutton--dark content__button content__button--hidden" aria-label="Close details"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
 				</div>
 				<!-- content -->
@@ -882,40 +776,34 @@
 				</div>
 				<span class="label">
 					<input id="sort-by-name" class="label__checkbox" type="checkbox" aria-label="Show alphabetically"/>
-					<label class="label__text">A - Z</label>
+					<label class="label__text"></label>
 				</span>
 				<ul class="list grouped-by-category">
-					<li class="list__item" data-level="1" data-category="1" data-space="1.08"><a href="#" class="list__link">The Wizard</a></li>
-					<li class="list__item" data-level="1" data-category="1" data-space="1.01"><a href="#" class="list__link">Apple Heart</a></li>
-					<li class="list__item" data-level="1" data-category="1" data-space="1.02"><a href="#" class="list__link">Crazy Banana</a></li>
-					<li class="list__item" data-level="2" data-category="1" data-space="2.05"><a href="#" class="list__link">The Eggplanthead</a></li>
-					<li class="list__item" data-level="1" data-category="1" data-space="1.09"><a href="#" class="list__link">Smoothies &amp; Soul</a></li>
-					<li class="list__item" data-level="1" data-category="1" data-space="1.06"><a href="#" class="list__link">Seed of Life</a></li>	
-					<li class="list__item" data-level="1" data-category="1" data-space="1.07"><a href="#" class="list__link">Raw Delight</a></li>
-					<li class="list__item" data-level="2" data-category="1" data-space="2.01"><a href="#" class="list__link">Grilled Chipotle</a></li>
-					<li class="list__item" data-level="3" data-category="1" data-space="3.01"><a href="#" class="list__link">Oolong House</a></li>
-					<li class="list__item" data-level="4" data-category="1" data-space="4.01"><a href="#" class="list__link">Cold Soup Kitchen</a></li>
-					<li class="list__item" data-level="2" data-category="1" data-space="2.06"><a href="#" class="list__link">Superfood</a></li>
-					<li class="list__item" data-level="4" data-category="2" data-space="4.06"><a href="#" class="list__link">Love 2 Cook</a></li>
-					<li class="list__item" data-level="4" data-category="2" data-space="4.07"><a href="#" class="list__link">Permaculture Hub</a></li>
-					<li class="list__item" data-level="1" data-category="2" data-space="1.03"><a href="#" class="list__link">Folding Life</a></li>
-					<li class="list__item" data-level="2" data-category="2" data-space="2.02"><a href="#" class="list__link">Rocketship Tech</a></li>
-					<li class="list__item" data-level="2" data-category="2" data-space="2.03"><a href="#" class="list__link">Which Bug?</a></li>
-					<li class="list__item" data-level="3" data-category="2" data-space="3.02"><a href="#" class="list__link">Enlightend Path</a></li>
-					<li class="list__item" data-level="4" data-category="2" data-space="4.02"><a href="#" class="list__link">Docu Dome</a></li>
-					<li class="list__item" data-level="4" data-category="3" data-space="4.03"><a href="#" class="list__link">Little Artist</a></li>
-					<li class="list__item" data-level="3" data-category="3" data-space="3.04"><a href="#" class="list__link">Your Last Shirt</a></li>
-					<li class="list__item" data-level="2" data-category="3" data-space="2.08"><a href="#" class="list__link">Tool Exchange</a></li>
-					<li class="list__item" data-level="1" data-category="3" data-space="1.04"><a href="#" class="list__link">Dress me not</a></li>
-					<li class="list__item" data-level="2" data-category="3" data-space="2.04"><a href="#" class="list__link">Cognitio</a></li>
-					<li class="list__item" data-level="3" data-category="3" data-space="3.03"><a href="#" class="list__link">What makes us walk</a></li>
-					<li class="list__item" data-level="2" data-category="3" data-space="2.07"><a href="#" class="list__link">No Princess</a></li>
-					<li class="list__item" data-level="3" data-category="4" data-space="3.07"><a href="#" class="list__link">Star Gazer</a></li>
-					<li class="list__item" data-level="4" data-category="4" data-space="4.04"><a href="#" class="list__link">Space 16</a></li>
-					<li class="list__item" data-level="3" data-category="4" data-space="3.05"><a href="#" class="list__link">Breathe</a></li>
-					<li class="list__item" data-level="1" data-category="4" data-space="1.05"><a href="#" class="list__link">Meditation Garden</a></li>
-					<li class="list__item" data-level="4" data-category="4" data-space="4.05"><a href="#" class="list__link">Hot Tub Festival</a></li>
-					<li class="list__item" data-level="3" data-category="4" data-space="3.06"><a href="#" class="list__link">Feel the Grass</a></li>
+					<!-- Person Location -->
+					<li class="list__item" loc="F" data-level="1" data-category="1" data-space="1.08"><a href="#" class="list__link">Person 3</a></li>
+					<li class="list__item" loc="F" data-level="1" data-category="1" data-space="1.01"><a href="#" class="list__link">Person 4</a></li>
+					<li class="list__item" loc="F" data-level="2" data-category="1" data-space="1.02"><a href="#" class="list__link">Person 5</a></li>
+					<li class="list__item" loc="F" data-level="3" data-category="1" data-space="2.05"><a href="#" class="list__link">Person 6</a></li>
+					<li class="list__item" loc="F" data-level="4" data-category="1" data-space="1.09"><a href="#" class="list__link">Person 7</a></li>
+					<li class="list__item" loc="F" data-level="5" data-category="1" data-space="1.06"><a href="#" class="list__link">Person 8</a></li>	
+					<li class="list__item" loc="F" data-level="6" data-category="1" data-space="1.07"><a href="#" class="list__link">Person 9</a></li>
+					<li class="list__item" loc="F" data-level="7" data-category="1" data-space="3.03"><a href="#" class="list__link">Person 10</a></li>
+					<li class="list__item" loc="F" data-level="2" data-category="1" data-space="2.07"><a href="#" class="list__link">Person 11</a></li>
+					<li class="list__item" loc="F" data-level="8" data-category="1" data-space="8.01"><a href="#" class="list__link">Person 1</a></li>
+					<li class="list__item" loc="F" data-level="8" data-category="1" data-space="8.02"><a href="#" class="list__link">Person 2</a></li>
+					<li class="list__item" loc="Yard" data-level="Outside/" data-category="1" data-space="0.02"><a href="/map?gps=long&lat" class="list__outsidelink">Person 3</a></li>
+
+					<!-- Devices List-->
+					<li class="list__item" loc="F" data-level="1" data-category="2" data-space="1.05"><a href="#" class="list__link">B0D368EC-A252-49F6-9271-E67673C936D0</a></li>
+					<li class="list__item" loc="F" data-level="2" data-category="2" data-space="2.05"><a href="#" class="list__link">FB1C55AA-61EC-4631-8A8D-EEE9F75160CB</a></li>
+					<li class="list__item" loc="F" data-level="3" data-category="2" data-space="3.05"><a href="#" class="list__link">56B9A561-AFFA-45F0-9A5D-8BE1C45EF411</a></li>
+					<li class="list__item" loc="F" data-level="4" data-category="2" data-space="4.05"><a href="#" class="list__link">03539E32-401D-4DD7-8E55-5CA1A7D7774B</a></li>
+					<li class="list__item" loc="F" data-level="5" data-category="2" data-space="5.05"><a href="#" class="list__link">E93334B7-0356-4700-8F75-FFFB54A4D877</a></li>
+					<li class="list__item" loc="F" data-level="6" data-category="2" data-space="6.05"><a href="#" class="list__link">B551855A-BB14-4D14-B895-2170474BCC79</a></li>
+					<li class="list__item" loc="F" data-level="7" data-category="2" data-space="7.05"><a href="#" class="list__link">2A7A7395-F535-4614-BC44-7D225F32119E</a></li>
+					<li class="list__item" loc="F" data-level="8" data-category="2" data-space="8.05"><a href="#" class="list__link">5858C99F-E08F-480F-B74C-1CD3AAF6C5EF</a></li>
+					
+					
 				</ul>
 			</aside>
 			<!-- /spaces-list -->
