@@ -1,10 +1,8 @@
-# Interactive 3D Mall Map
+# 3D-Floor-Level-RTLS
 
-An interactive 3D mall map concept with a sidebar search and pin indicators for every level. 
+An 3D Floor-Level RTLS concept with a sidebar search and pin indicators for every person location. Edit
 
-[Article on Codrops](http://tympanus.net/codrops/?p=26692)
-
-[Demo](http://tympanus.net/Development/Interactive3DMallMap/)
+Modified version based on [Interactive 3D Mall Map](https://github.com/codrops/Interactive3DMallMap){target="_blank"}
 
 ## License
 
